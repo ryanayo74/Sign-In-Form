@@ -59,7 +59,6 @@ input {
 	font-weight: 700;
 	color: #735400;
 	line-height: 1.222;
-	
 }
 
 .card-form {
@@ -68,7 +67,7 @@ input {
 
 .Sign-Up {
 	padding: 2rem 1rem 0;
-   
+    
 }
 
 .input {
@@ -99,8 +98,12 @@ input {
 
 .action {
 	margin-top: 2rem;
-   
-	
+}
+
+.action-button:hover {
+
+	cursor:pointer;
+	background-color: #735400;	
 }
 
 .action-button {
@@ -113,6 +116,7 @@ input {
 	border-radius: 6px;
 	color: #FFF;
 	border: 0;
+	cursor: pointer;
 
 
 }
@@ -124,6 +128,8 @@ input {
 	color: #000000;
 	
 }
+
+
 
 footer {
 		text-align: center;
